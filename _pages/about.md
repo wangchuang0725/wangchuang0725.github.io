@@ -11,7 +11,9 @@ redirect_from:
 
 News and Updates
 ======
-- （test） Submit your ICIC papers [ICIC-2026](http://ic-icc.cn/2026/index.php)
+Reminder: This website has temporarily stopped updating. Please refer to my Google Scholar homepage or ORCID. If you wish to contact me, please send an email. Thank you.
+
+- Submit your ICIC papers [ICIC-2026](http://ic-icc.cn/2026/index.php)
   
 
 
