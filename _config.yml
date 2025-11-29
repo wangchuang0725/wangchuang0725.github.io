@@ -42,10 +42,9 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  researchgate     : # "https://www.researchgate.net/profile/Chuang-Wang-47"
+  scopus           : # "https://dblp.uni-trier.de/pid/39/2813-11.html"
   zotero           : # URL
-  DBLP             : "https://dblp.uni-trier.de/pid/39/2813-11.html"
 
 
   # Repositories and software development
