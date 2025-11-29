@@ -42,8 +42,8 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # "https://www.researchgate.net/profile/Chuang-Wang-47"
-  scopus           : # "https://dblp.uni-trier.de/pid/39/2813-11.html"
+  researchgate     : "https://www.researchgate.net/profile/Chuang-Wang-47"
+  scopus           : "https://dblp.uni-trier.de/pid/39/2813-11.html"
   zotero           : # URL
 
 
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : # "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # 
   facebook         : "https://www.facebook.com/share/17RD8E7LeE/?mibextid=wwXIfr"
   flickr           : # Username
   foursquare       : # Username
@@ -285,7 +285,7 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: talksss
     values:
       layout: talk
       author_profile: true
