@@ -285,7 +285,7 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talksss
+      type: talks
     values:
       layout: talk
       author_profile: true
