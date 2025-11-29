@@ -11,11 +11,8 @@ redirect_from:
 
 News and Updates
 ======
-- Submit your ICIC papers [ICIC-2026](http://ic-icc.cn/2026/index.php)
+- （test） Submit your ICIC papers [ICIC-2026](http://ic-icc.cn/2026/index.php)
   
 
-Latest Research
-======
 
-Awards
-======
+
