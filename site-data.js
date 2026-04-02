@@ -20,7 +20,8 @@ window.siteData = {
     avatar: "assets/profile.jpg",
     links: [
       { label: "ORCID", href: "https://orcid.org/0009-0002-6872-557X" },
-      { label: "Google Scholar", href: "https://scholar.google.com/citations?user=LXr9gpQAAAAJ" }
+      { label: "Google Scholar", href: "https://scholar.google.com/citations?user=LXr9gpQAAAAJ" },
+      { label: "Web of Science", href: "https://www.webofscience.com/wos/author/record/JRY-9229-2023" }
     ]
   },
   biography: {
@@ -207,7 +208,7 @@ window.siteData = {
       "CCF Student Member"
     ],
     programCommittee: "Technical Program Committee Member, 2025 International Conference on Automation, Control and Robotics Engineering (CACRE 2025).",
-    reviewer: "Reviewer for multiple international journals and conferences."
+    reviewer: "Reviewer for international journals and conferences, including IEEE Transactions on Image Processing (T-IP), IEEE Transactions on Fuzzy Systems (T-FS), IEEE Transactions on Geoscience and Remote Sensing (T-GRS), IEEE Transactions on Intelligent Transportation Systems (T-ITS), IEEE Access, AAAI, Scientific Reports, IJMLC, and others."
   },
   students: {
     phd: [],
