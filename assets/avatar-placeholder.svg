@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 280" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar placeholder</title>
+  <desc id="desc">A placeholder image for a profile photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3ece5"/>
+      <stop offset="100%" stop-color="#e5d9cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="220" height="280" fill="url(#bg)"/>
+  <circle cx="110" cy="95" r="42" fill="#b9aa9b"/>
+  <path d="M55 228c8-39 36-59 55-59s47 20 55 59" fill="#b9aa9b"/>
+  <text
+    x="110"
+    y="256"
+    text-anchor="middle"
+    font-family="Palatino Linotype, Book Antiqua, serif"
+    font-size="16"
+    fill="#7f6f61"
+  >
+    YOUR PHOTO
+  </text>
+</svg>

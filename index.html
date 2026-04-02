@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Academic Homepage</title>
+  <meta
+    name="description"
+    content="A static academic homepage template inspired by crabwq.github.io."
+  >
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero" id="top">
+      <div class="hero-photo">
+        <img id="profile-photo" alt="Profile photo">
+        <div id="profile-photo-fallback" class="photo-fallback" aria-hidden="true"></div>
+      </div>
+      <div class="hero-copy">
+        <p class="hero-utility">
+          <a id="profile-alt-link" href="#" target="_blank" rel="noreferrer noopener"></a>
+        </p>
+        <h1 class="name-line">
+          <span id="profile-name-en"></span>
+          <span id="profile-name-zh" class="name-zh"></span>
+        </h1>
+        <p id="profile-title" class="lead-line"></p>
+        <p id="profile-affiliation-1" class="lead-line"></p>
+        <p id="profile-affiliation-2" class="lead-line"></p>
+        <div id="profile-address" class="contact-block"></div>
+        <p id="profile-phone" class="lead-line"></p>
+        <p id="profile-email" class="lead-line"></p>
+        <div id="profile-links" class="profile-links"></div>
+      </div>
+    </header>
+
+    <nav class="section-nav" aria-label="Section navigation">
+      <a href="#Biography">Biography</a>
+      <a href="#Education">Education</a>
+      <a href="#Experience">Experience</a>
+      <a href="#ResearchInterests">Research Interests</a>
+      <a href="#Publications">Publications</a>
+      <a href="#Honors">Honors & Awards</a>
+      <a href="#ProfessionalActivities">Professional Activities</a>
+      <a href="#Students">Students</a>
+    </nav>
+
+    <main class="content">
+      <section id="Biography" class="content-section">
+        <h2>Biography</h2>
+        <p id="bio-en" class="paragraph"></p>
+        <p id="bio-zh" class="paragraph"></p>
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+      </section>
+
+      <section id="Education" class="content-section">
+        <h2>Education</h2>
+        <table class="timeline-table" id="education-table"></table>
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+      </section>
+
+      <section id="Experience" class="content-section">
+        <h2>Experience</h2>
+        <table class="timeline-table" id="experience-table"></table>
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+      </section>
+
+      <section id="ResearchInterests" class="content-section">
+        <h2>Research Interests</h2>
+        <p id="research-interests" class="paragraph"></p>
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+      </section>
+
+      <section id="Publications" class="content-section">
+        <h2>Selected Journal Publications</h2>
+        <ol id="journal-publications" class="publication-list"></ol>
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+
+        <h2>Selected Conference Publications</h2>
+        <ol id="conference-publications" class="publication-list"></ol>
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+      </section>
+
+      <section id="Honors" class="content-section">
+        <h2>Honors and Awards</h2>
+        <table class="year-table" id="honors-table"></table>
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+      </section>
+
+      <section id="ProfessionalActivities" class="content-section">
+        <h2>Professional Activities</h2>
+
+        <div class="activity-group" id="editorial-group">
+          <p class="subheading"><strong>Editorial Service:</strong></p>
+          <div id="editorial-list"></div>
+        </div>
+
+        <div class="activity-group" id="membership-group">
+          <p class="subheading"><strong>Membership:</strong></p>
+          <div id="membership-list"></div>
+        </div>
+
+        <div class="activity-group" id="program-group">
+          <p class="subheading"><strong>Program Committee / Area Chair:</strong></p>
+          <p id="program-text" class="paragraph indented"></p>
+        </div>
+
+        <div class="activity-group" id="reviewer-group">
+          <p class="subheading"><strong>Regular Reviewer:</strong></p>
+          <p id="reviewer-text" class="paragraph indented"></p>
+        </div>
+
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+      </section>
+
+      <section id="Students" class="content-section">
+        <h2>Students</h2>
+
+        <div id="phd-group" class="student-group">
+          <p class="subheading"><strong>Ph.D:</strong></p>
+          <div id="phd-list"></div>
+        </div>
+
+        <div id="master-group" class="student-group">
+          <p class="subheading"><strong>Master:</strong></p>
+          <div id="master-list"></div>
+        </div>
+
+        <p class="to-top"><a href="#top">↑TOP</a></p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>Last updated: <span id="last-updated"></span></p>
+      <p id="footer-note"></p>
+    </div>
+  </footer>
+
+  <script src="site-data.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
